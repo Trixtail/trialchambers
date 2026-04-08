@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = CopperFreeTrialChambers.MODID, dist = Dist.CLIENT)
+@Mod(value = CopperFreeTrialChambers.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = CopperFreeTrialChambers.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = CopperFreeTrialChambers.MOD_ID, value = Dist.CLIENT)
 public class CopperFreeTrialChambersClient {
     public CopperFreeTrialChambersClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
@@ -24,8 +24,6 @@ public class CopperFreeTrialChambersClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        CopperFreeTrialChambers.LOGGER.info("HELLO FROM CLIENT SETUP");
-        CopperFreeTrialChambers.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
     }
 }
