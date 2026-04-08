@@ -1,0 +1,13 @@
+{
+  "itemGroup.copperfreetrialchambers": "Example Mod Tab",
+  "block.copperfreetrialchambers.example_block": "Example Block",
+  "item.copperfreetrialchambers.example_item": "Example Item",
+
+  "copperfreetrialchambers.configuration.title": "Copper-Free Trial Chambers Configs",
+  "copperfreetrialchambers.configuration.section.copperfreetrialchambers.common.toml": "Copper-Free Trial Chambers Configs",
+  "copperfreetrialchambers.configuration.section.copperfreetrialchambers.common.toml.title": "Copper-Free Trial Chambers Configs",
+  "copperfreetrialchambers.configuration.items": "Item List",
+  "copperfreetrialchambers.configuration.logDirtBlock": "Log Dirt Block",
+  "copperfreetrialchambers.configuration.magicNumberIntroduction": "Magic Number Text",
+  "copperfreetrialchambers.configuration.magicNumber": "Magic Number"
+}
